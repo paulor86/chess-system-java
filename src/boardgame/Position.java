@@ -15,16 +15,16 @@ public class Position {
 	public void setRow(int row) {
 		this.row = row;
 	}
-	public int getColor() {
+	public int getColumn() {
 		return column;
 	}
-	public void setColor(int color) {
-		this.column = color;
+	public void setColumn(int column) {
+		this.column = column;
 	}
 	
 	@Override
 	public String toString() {
 		return row + "," + column;
 	}
-
+	
 }
